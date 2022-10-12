@@ -13,7 +13,7 @@ namespace ConsoleAppMoqEasyStart.Before
             var smtpSend = new SmtpSender();
             smtpSend.SendMail("message");
 
-            //everything went well - order proecessed
+            //everything went well - order processed
             return true;
         }
     }
